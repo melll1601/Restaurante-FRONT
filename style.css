@@ -5,9 +5,9 @@
 
 body{
 background-color: #5a5757;
+font-weight: 300;
+font-family: 'Poppins', sans-serif;
 
-font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-weight: 50;
 
 }
 
@@ -175,81 +175,158 @@ padding-top: 140px;
 }
 .classe_principal{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 30px;
 
 }
 
-#fettuccine{
-    margin: 40px;
+.pratos_principais{
+    margin: 40px 20px 0px 33px;
     display: flex;
-    background-color: #cacaca;
-    width: 650px;
+    background-color: #cec8c8;
+    width: 550px;
     border-radius:30px ;
     height: auto;
     align-items: self-start;
     gap: 20px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
 }
 
-#fettuccine img{
-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+.pratos_principais img{
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
-
 
 .texto h1{
     padding-top: 10px;
     font-weight: 500;
-    font-size: 23px;
+    font-size: 19px;
     max-width: 600px;
 }    
 
 .texto p{
-    font-weight: 410;
+    font-size: 17px;
     padding-top: 15px;
     padding-bottom: 25px;
 }
 
-
 .preco_link h3{
-    font-weight: 520;
-    padding-right: 25px;
+    line-height: 1;
+    padding: 0 25px 0 0;
 }
 
 .preco_link{
-    font-size: 20px;
+    font-size: 16px;
     color: #2c2c2c;
     display: flex;
     font-weight: 520;
     list-style: none;
+    align-items: center;
 }
-
 
 .preco_link a{
+    line-height: 1;
+    display: inline-block;
     border: 1px solid #242424;
     border-radius: 20px;
-    padding-left: 10px;
+    padding: 5px 10px;
     padding-right: 10px;
-    padding-bottom: 3px;
     color: #2c2c2c;
-    font-weight: 500;
+    font-weight: 450;
+    font-size: 16px;
+}
+
+.preco_link a:hover{
+    
+    transform: scale(1.05);
+    background-color: #d3d3d3;
 
 }
 
-.preco_link {
+#pratos_principais {
+    padding: 40px 0px 1dvb 70px;
+    font-size: 32px;
+    color: aliceblue;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.conteudo{
     display: flex;
-    list-style: none;
+    flex-direction: row;
 }
 
-.link_banner li{
-    margin-top: 40px;
-    margin-right: 20px;
+.barra_lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    margin: 40px 50px 0px 0px;
+    border-radius: 30px;
+    height: auto;
+    border: 1px solid #585858;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+}
+.videoyt{
+    border: 1px solid #d3d3d3 ;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.barra_lateral h2{
+    margin: 0px 0px 10px 1px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 560;
+    color: #eeeeee;
 
 }
 
+.barra_lateral iframe{
 
-footer{
+    height: 200px;
+    width: 360px;
+    border-radius: 40px;
 
-    background-color: #2c2c2c;
 }
+
+.barra_lateral p{
+
+    text-align: justify;
+    font-size: 18px;
+    padding: 5px;
+    color: #f0f0f0;
+}
+
+.funcionamento{
+    border: 1px solid #d3d3d3 ;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+
+}
+.funcionamento h1{
+    margin: 0px 0px 10px 1px;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 560;
+    color: #eeeeee;
+
+
+}
+
+.funcionamento h3{
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 300;
+    color: #f0f0f0;
+    
+}
+
