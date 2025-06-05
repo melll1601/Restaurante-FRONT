@@ -393,10 +393,6 @@ background-color: #464646;
     background-color: #2c2c2c;
 }
 
-.comentarios img{
-    height: 20px;
-}
-
 .feedback h1{
     text-align: center;
     padding: 20px;
@@ -406,15 +402,58 @@ background-color: #464646;
 .feedback h3{
     text-align: center;
     font-weight: 300;
-    margin-bottom: 40px;}
+    margin-bottom: 40px;
+}
 
+.estrutura_comentarios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.comentarios{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background-color: #474747;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    border-radius: 20px;
+    flex-direction: column;
+}
 
+.estrelas{
+    padding: 16px 0px 10px 20px;
 
+    
+}
+.comentarios img{
+    height: 20px;
+}
 
+.comentarios h4{
+    font-weight: 500;
+padding-left: 15px;
 
+}
 
+.perfil{
+    margin: 20px;
+    display: flex;
+}
 
+#pessoa{
+    display: flex;
+    height:50px;
+    border-radius: 100%;
+}
+
+.comentarios p{
+
+    font-size: 13px;
+    width: 270px;
+    text-align: justify;
+    padding: 10px;
+}
 
 
 
