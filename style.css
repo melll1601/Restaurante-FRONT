@@ -1,10 +1,10 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
 }
 
 body{
-background-color: #5a5757;
+background-color: #d8d8d8;
 font-weight: 300;
 font-family: 'Poppins', sans-serif;
 
@@ -184,18 +184,20 @@ padding-top: 140px;
 .pratos_principais{
     margin: 40px 20px 0px 33px;
     display: flex;
-    background-color: #cec8c8;
+    background-color: #f0f0f0;
     width: 550px;
     border-radius:30px ;
     height: auto;
     align-items: self-start;
     gap: 20px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+
+
 .pratos_principais img{
-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .texto h1{
@@ -247,7 +249,7 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 #pratos_principais {
     padding: 40px 0px 1dvb 70px;
     font-size: 32px;
-    color: aliceblue;
+    color: rgb(36, 36, 36);
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -256,6 +258,7 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 .conteudo{
     display: flex;
     flex-direction: row;
+    padding-bottom: 100px;
 }
 
 .barra_lateral{
@@ -266,26 +269,15 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     margin: 40px 50px 0px 0px;
     border-radius: 30px;
     height: auto;
-    border: 1px solid #585858;
     padding: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background-color: #2c2c2c;
+    gap: 40px;
 
 }
 .videoyt{
-    border: 1px solid #d3d3d3 ;
+    border: 1px solid #ffffff ;
     border-radius: 30px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     padding: 10px;
-}
-
-.barra_lateral h2{
-    margin: 0px 0px 10px 1px;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    font-weight: 560;
-    color: #eeeeee;
-
 }
 
 .barra_lateral iframe{
@@ -301,7 +293,7 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     text-align: justify;
     font-size: 18px;
     padding: 5px;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 .funcionamento{
@@ -311,15 +303,15 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     padding: 10px;
 
 }
-.funcionamento h1{
+
+#titulos_barra{
+
     margin: 0px 0px 10px 1px;
     align-items: center;
     justify-content: center;
     font-size: 25px;
     font-weight: 560;
     color: #eeeeee;
-
-
 }
 
 .funcionamento h3{
@@ -328,5 +320,186 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     font-weight: 300;
     color: #f0f0f0;
     
+}
+.formulario{
+    border: 1px solid #d3d3d3 ;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    color: #f0f0f0;
+    font-size: 18px;
+    justify-content: center;   
+
+}
+
+
+.formulario_inicial label{
+     margin: 10px 0px 10px 0px;
+
+    display: flex;
+
+}
+
+.formulario_inicial input{
+    border: 1px solid #858585 ;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background-color: #2c2c2c;
+    padding: 6px;
+    width: 350px;
+    font-size: 16px;
+    color: #f0f0f0;
+
+}
+
+.observacao{
+
+    height: 60px;
+}
+
+
+.button{
+display: flex;
+flex-direction: row-reverse;
+
+
+}
+
+
+.formulario_inicial button{
+
+    color: #f0f0ff;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px 0px 10px 0px;
+    background-color: #383838;
+    border: 1px solid #d3d3d3;
+
+}
+
+.formulario_inicial button:hover{
+
+transform: scale(1.06);
+background-color: #464646;
+
+}
+
+
+.feedback{
+    color: #f0f0ff;
+    background-color: #2c2c2c;
+}
+
+.comentarios img{
+    height: 20px;
+}
+
+.feedback h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+}
+
+.feedback h3{
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+display: flex;
+background-color: #d38383;
+}
+
+
+.links_rapidos_footer{
+color: #d8cfc4;
+display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer_logo{
+color: #ffffff;
+}
+
+
+.footer_logo h1{
+    padding:30px 10px 0px 40px;
+    font-weight: 300;
+    font-size: 40px;
+}
+    
+.footer_logo p{
+    padding:30px 10px 0px 40px;
+    font-size: 20px;
+}
+
+.footer_logo img{
+    padding:30px 10px 0px 40px;
+    height: 100px;
+
 }
 
