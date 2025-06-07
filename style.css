@@ -455,69 +455,15 @@ padding-left: 15px;
     padding: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
-display: flex;
-background-color: #d38383;
+background-color: #202020;
 }
 
+.conteudo_footer{
+    display: flex;
+    justify-content: space-between;
 
-.links_rapidos_footer{
-color: #d8cfc4;
-display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer_logo{
@@ -534,11 +480,50 @@ color: #ffffff;
 .footer_logo p{
     padding:30px 10px 0px 40px;
     font-size: 20px;
+    width: 300px;
 }
 
 .footer_logo img{
     padding:30px 10px 0px 40px;
     height: 100px;
 
+}
+
+
+.links_rapidos_footer{
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.links_rapidos_footer nav ul li a{
+
+display: flex;
+flex-direction: column;
+}
+
+
+
+.funcionamento_footer{
+
+    color: #ffffff;
+    width: 600px;
+    text-align: sustify;
+
+}
+
+
+.funcionamento_footer h3{
+    padding:30px 10px 0px 40px;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.funcionamento_footer h1{
+
+    padding:30px 10px 0px 40px;
+    font-weight: 300;
+    font-size: 40px;
 }
 
