@@ -1,0 +1,117 @@
+
+body{
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    }
+
+
+.sobre_nos{
+    color: #ffffff;
+    background-color: #474747;
+
+
+}
+.sobre_nos h1{
+    padding-top: 30px;
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+.sobre_nos h3{
+
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 300;
+    
+}
+.conteudo_total{
+
+    background-color: #303030;
+}
+
+
+.historia{
+    margin: 20px;
+    display: flex;
+
+}
+
+
+.conteudo h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: start;
+    padding-top: 30px;
+
+}
+
+.conteudo h4{
+    padding-top: 26px;
+    font-weight: 100;
+    font-size: 20px;
+    color: #d8d8d8;
+    max-width: 800px;
+    line-height: 1.6;
+    font-size: 22px;
+    padding-right: 100px;
+
+}
+
+.conteudo{    
+    margin-top: 40px;
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap; 
+
+}
+
+
+
+.historia img {
+    height: 500px;
+    width: 800px;
+    border-radius: 50px;
+    padding: 20px;    
+    margin-top: 40px;
+    border: 1px solid #ffffff;
+}
+
+.equipe{
+    background-color: #474747;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 60px;
+}
+
+
+.equipe img{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    border-radius: 150px;
+}
+
+.equipe img:hover{
+    transform: scale(1.05);
+}
+
+
+.home a{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 300;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+.home a:hover{
+    border: 1px solid #929292;
+    color: #929292;
+    transform: scale(1.05);
+}
